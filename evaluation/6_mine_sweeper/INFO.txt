@@ -1,0 +1,11 @@
+Mine Sweeper. See source.
+
+main() function: _main (at 0x411460)
+
+Under BAST/Paranoid modes, thread analysis of malWASH won't find the thread entry point,
+so you will need to manually specify it: j_?DestroyWindows@@YGKPAX@Z (0x4111A4)
+
+We need .pdb file. Functions like cout can cause problems under injection.
+We don't need them so we remove them from malWASH. To do that we need to know
+function names. We can do other things like signature matching as well, but
+for now leave the pdb file here.

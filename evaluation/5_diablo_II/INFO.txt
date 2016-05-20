@@ -1,0 +1,5 @@
+Steal serial from diablo II and send to with email.
+
+main function(): start (at 0x401000)
+
+I pathced the IP so it sends the serial to a local port. Use netcat to get it: nc -nvvl -p 25

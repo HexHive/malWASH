@@ -1,0 +1,15 @@
+Simple Trojan. See source.
+
+main() function: _main (at 0x411EC0)
+
+We need .pdb file. Functions like cout can cause problems under injection.
+We don't need them so we remove them from malWASH. To do that we need to know
+function names. We can do other things like signature matching as well, but
+for now leave the pdb file here.
+
+
+Send commands like this:
+	echo|set /p=1| ncat 127.0.0.1 5432
+	d
+	echo|set /p=3| ncat 127.0.0.1 5432
+	echo|set /p=4| ncat 127.0.0.1 5432

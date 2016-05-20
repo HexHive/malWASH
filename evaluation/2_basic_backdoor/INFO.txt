@@ -1,0 +1,9 @@
+Basic backdoor. See source.
+
+main() function: sub_411350 
+
+Arguments (main() style): foo.exe 9999 xrysa 
+
+Use a netcat client to connect to it: nc 127.0.0.1 9999
+and enter password: xrysa
+

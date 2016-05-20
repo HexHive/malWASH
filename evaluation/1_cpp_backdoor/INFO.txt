@@ -1,0 +1,14 @@
+Cpp Backdoor (CppServer.exe). See source code for more details.
+
+main() function: _WinMain@16
+
+Arguments (WinMain() style): -k UserService
+
+Use CppClient.exe to connect to the server.
+
+NOTE: I didn't test wipe command as it wipes the disk. I tried commands like:
+start ==> c:\windows\system32\calc.exe
+shellexecute ==> c:\windows\system32\calc.exe
+restart
+forceshutdown
+...

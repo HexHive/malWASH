@@ -1,0 +1,5 @@
+Remote Keylogger which sends keystrokes to 127.0.0.1:9999
+
+main() function: 00412500
+
+Run a netcat server before keylogger to collect keystrokes: nc -nvvl -p9999

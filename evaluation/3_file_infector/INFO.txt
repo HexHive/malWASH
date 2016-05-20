@@ -1,0 +1,8 @@
+File infector. See source.
+
+main function(): main (at 0x4017E0)
+
+Arguments: foo.exe infectme.exe
+
+Code is injected in infecteme.exe 
+
